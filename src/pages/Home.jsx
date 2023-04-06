@@ -3,7 +3,7 @@ export default function Home() {
     <div className="Home">
       <h1>Bags shop</h1>
       <p>Quality bags</p>
-      <p>bags shop</p>
+      <p>You will find any bag in our store</p>
     </div>
   )
 }
