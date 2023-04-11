@@ -1,4 +1,4 @@
-import { useEffect, useSate, useState } from "react";
+import { useEffect, useState } from "react";
 import "./CategoryList.css";
 import { categoryCollection } from "../../firebase";
 import { getDocs } from "firebase/firestore";
@@ -6,10 +6,15 @@ import { NavLink } from "react-router-dom";
 
 export default function CategoryList() {
   const [categories, setCategories] = useState([]);
-  //выполнить эту функцию только один раз
+      //выполнить эту функцию только один раз
   useEffect(() => {
-    //поличить категории из списка категории
-    getDocs(categoryCollection).then((snapshot) => {
+
+      //поличить категории из списка категории
+    getDocs(categoryCollection)
+    .then(snapshot => {
+      //категории будут храниться в snapshot.docs
+      
+      
       //создать массив для категории
       const newCategories = [];
 
