@@ -1,3 +1,5 @@
+import GategoryList from "../CategoryList/CategoryList";
+import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import "./Layout.css";
 
@@ -5,10 +7,11 @@ export default function Layout(props) {
   return (
     <div className="Layout">
       <header>
-        <Nav/>
+        <Logo/>
+        <Nav />
       </header>
       <aside>
-        ASIDE
+        <GategoryList/>
       </aside>
       <main>
         {props.children}
@@ -16,6 +19,6 @@ export default function Layout(props) {
       <footer>
         FOOTER
       </footer>
-    </div>
+     </div>
   );
 }

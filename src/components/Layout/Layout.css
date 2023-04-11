@@ -1,21 +1,38 @@
 .Layout {
   display:grid;
-  grid-template-areas: "header header" 
-           "aside main" 
-           "footer footer";
-  grid-template-columns: 1fr 3fr;         
-  max-width: 789px;
-  margin: 0 auto;
+  grid-template-areas: "header header"
+         "aside main"
+         "footer footer";
+  grid-template-columns: 1fr 3fr;
+  max-width:789px;
+  margin: 0 auto;       
+}
+header {
+  display: flex;
+  background-color: blue;
+  position: relative;
 
-}.Layout header {
+}
+.Layout header {
   grid-area: header;
-
+}
+aside {
+  display:flex;
+  background-color: aqua;
 }
 .Layout aside {
   grid-area: aside;
 }
+main {
+  display: flex;
+  background-color: brown;
+}
 .Layout main {
   grid-area: main;
+}
+footer {
+  display: flex;
+  background-color: chocolate;
 }
 .Layout footer {
   grid-area: footer;
