@@ -9,7 +9,7 @@
 }
 header {
   display: flex;
-  background-color: rgb(43, 43, 186);
+  background-color: rgb(106, 239, 130);
   height: 10vh;
   position: relative;
   padding: 15px;
@@ -20,30 +20,37 @@ header {
   margin-left: 50px;
 }
 .Nav ul li a:hover {
-  background-color: aquamarine;
+  background-color: rgb(94, 219, 245);
   border-radius: 10px;
-  box-shadow: 0 0 20px 5px;
+  border-style: solid;
+  box-shadow: 0 0 200px 5px;
 }
 .Layout header {
   grid-area: header;
 }
 aside {
   display:flex;
-  background-color: aqua;
+  background-color: rgb(99, 237, 154);
+  border-style: solid;
+  color: chartreuse;
 }
 .Layout aside {
   grid-area: aside;
 }
 main {
   display: flex;
-  background-color: brown;
+  background-color: rgb(8, 191, 87);
+  border-style: solid;
+  color: chartreuse;
+  
+  
 }
 .Layout main {
   grid-area: main;
 }
 footer {
   display: flex;
-  background-color: chocolate;
+  background-color: rgb(12, 210, 51);
 }
 .Layout footer {
   grid-area: footer;
