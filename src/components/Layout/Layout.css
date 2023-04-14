@@ -4,15 +4,25 @@
          "aside main"
          "footer footer";
   grid-template-columns: 1fr 3fr;
-  max-width:789px;
+  max-width:1500px;
   margin: 0 auto;       
 }
 header {
   display: flex;
-  background-color: blue;
+  background-color: rgb(43, 43, 186);
   height: 10vh;
   position: relative;
-
+  padding: 15px;
+}
+.Nav ul li a {
+  display: block;
+  padding: 5px;
+  margin-left: 50px;
+}
+.Nav ul li a:hover {
+  background-color: aquamarine;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 5px;
 }
 .Layout header {
   grid-area: header;
