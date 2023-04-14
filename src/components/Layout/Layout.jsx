@@ -9,6 +9,7 @@ export default function Layout(props) {
       <header>
         <Logo/>
         <Nav />
+        <h1>"Karakol" store</h1>
       </header>
       <aside>
         <GategoryList/>
