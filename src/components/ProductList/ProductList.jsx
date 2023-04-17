@@ -2,6 +2,7 @@ import { useContext } from "react";
 import "./ProductsList/css";
 import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
+import "./ProductList/css";
 
 export default function ProductsList() {
   const {products } =useContext(AppContext);

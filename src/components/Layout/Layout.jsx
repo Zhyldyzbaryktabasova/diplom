@@ -10,13 +10,13 @@ export default function Layout(props) {
         <Logo/>
         <Nav />
         <h1>"Karakol" store</h1>
-      </header>
+        </header>
       <aside>
         <GategoryList/>
       </aside>
       <main>
         {props.children}
-      </main>
+        </main>
       <footer>
         FOOTER
       </footer>
