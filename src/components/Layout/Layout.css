@@ -17,7 +17,7 @@ header {
 .Nav ul li a {
   display: block;
   padding: 5px;
-  margin-left: 50px;
+  margin-left: 90px;
 }
 .Nav ul li a:hover {
   background-color: rgb(94, 219, 245);
@@ -30,18 +30,17 @@ header {
 }
 aside {
   display:flex;
-  background-color: rgb(99, 237, 154);
+  background-color: rgb(210, 218, 213);
   border-style: solid;
-  color: chartreuse;
+  color: rgb(165, 171, 160);
 }
 .Layout aside {
   grid-area: aside;
 }
 main {
   display: flex;
-  background-color: rgb(8, 191, 87);
-  border-style: solid;
-  color: chartreuse;
+  background-color: rgb(234, 242, 237);
+  color: rgb(78, 81, 75);
   
   
 }
