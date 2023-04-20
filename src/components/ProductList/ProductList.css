@@ -1,10 +1,11 @@
 .ProductList .Product {
- display:flex;
+ display: inline-flex;
  flex-direction: column;
  max-width: 200px;
 }
 .ProductList .Product img {
   width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px;
+  border-radius: 50px;
+  max-width: 300px ;
+  box-shadow: 0 0 20px;
 }

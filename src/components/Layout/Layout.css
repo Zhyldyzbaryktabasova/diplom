@@ -27,6 +27,7 @@ header {
 }
 .Layout header {
   grid-area: header;
+
 }
 aside {
   display:flex;
