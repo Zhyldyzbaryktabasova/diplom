@@ -33,7 +33,7 @@ aside {
   display:flex;
   background-color: rgb(210, 218, 213);
   border-style: solid;
-  color: rgb(165, 171, 160);
+  color: rgb(245, 249, 243);
 }
 .Layout aside {
   grid-area: aside;
