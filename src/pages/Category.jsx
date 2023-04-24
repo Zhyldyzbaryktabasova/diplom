@@ -3,6 +3,7 @@ import { useMatch } from "react-router-dom";
 import { AppContext } from "../App";
 import ProductsList from "../components/ProductList/ProductList";
 import NotFound from "./NotFound";
+import "./Category.css";
 
 export default function Category() {
   const { params } = useMatch("/category/:path");
