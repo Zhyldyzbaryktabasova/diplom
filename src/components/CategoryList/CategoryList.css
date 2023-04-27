@@ -1,4 +1,5 @@
 .CategoryList li {
+  display: flex;
   background-color: aquamarine;
   list-style-type: none;
   font-size: 18px;
