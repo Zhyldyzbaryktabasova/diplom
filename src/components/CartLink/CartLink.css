@@ -4,14 +4,15 @@
   position: relative;
   padding: 15px;
 }
-.CartLink .Cart-pht {
-  width: 40px;
-  border-radius: 10px;
-  background-color: gray;
-}
+
 .CartLink img {
   height: 30px;
   position: absolute;
+  border-radius: 50px;
   top: 3px;
-  left: 550px;
+  left: 60px;
+}
+.CartLink a {
+  padding: 2px 100px;
+  left: 560px;
 }
