@@ -59,6 +59,7 @@ footer {
 .Layout footer {
   grid-area: footer;
   padding: 50px;
+  background-color: #2699c7;
 }
 .Layout .logo {
   max-width: 100px;
