@@ -1,10 +1,9 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import "./CategoryList.css";
-import { categoryCollection } from "../../firebase";
-import { getDocs } from "firebase/firestore";
 import { NavLink } from "react-router-dom";
 import { AppContext } from "../../App";
 import AddCategory from "../AddCategory/AddCategory";
+import DeleteCategory from "../DeleteCategory/DeleteCategory";
 
 export default function CategoryList() {
   const { categories } = useContext(AppContext);
@@ -12,6 +11,7 @@ export default function CategoryList() {
   const output = categories.map((category) => (
     <li key={category.id}>
       <NavLink to={"/category/" + category.path}>{category.name}</NavLink>
+      <DeleteCategory category={category} />
     </li>
   ));
   return (
