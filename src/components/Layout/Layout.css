@@ -28,6 +28,10 @@ header {
 .Layout header {
   grid-area: header;
 
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 aside {
   display:flex;
@@ -64,3 +68,9 @@ footer {
 .Layout .logo {
   max-width: 100px;
 }
+@media (max-width: 650px) {
+  .Layout header > .Nav {
+    display: none;
+  }
+}
+
