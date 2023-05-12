@@ -55,6 +55,12 @@ padding: 100px;
 background-image:url(https://img.freepik.com/premium-vector/background-images-free-download-on-freepik_689361-61.jpg) ;
 background-size: 1000px;
 }
+.Home img {
+  display: flex;
+  padding:50px 50px 60px 90px;
+  height: 40vh
+}
+
 footer {
   display: flex;
   background-color: rgb(88, 107, 110);
