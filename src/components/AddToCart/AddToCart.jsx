@@ -10,12 +10,12 @@ export default function AddToCart({ product }) {
     setCart({
       ...cart,
       [product.id]: currentCount + 1,
-    })
+    });
   }
 
   return (
     <div className="AddToCart">
       <button onClick={onAddToCart}>Add to cart ({currentCount})</button>
     </div>
-  ) 
+  );
 }
