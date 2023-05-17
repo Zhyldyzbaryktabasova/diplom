@@ -10,6 +10,7 @@
 .CategoryList li a {
   text-decoration: none;
   color: #280fcd;
+  margin: 6px;
 }
 .CategoryList .Category:hover {
   transform: scale(0,9);
