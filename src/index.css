@@ -67,37 +67,33 @@ body {
 .Col-12 {
   flex: 100% 0 0;
 }
-
 .Home {
-  display: flex;
+  margin-left: 250px;
 }
+
+
 .Home h1 {
   color: blue;
+  margin-left: 300px;
 }
-
-.Home-about {
-  color: brown;
-  margin-top: 30px;
-  margin-left: 82px;
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-bottom: 10px;
-  padding-right: 15px;
-  box-shadow: 0 0 10px 2px brown;
-  display: inline-block;
-  border-radius: 10px;
-  flex-wrap: wrap;
+.Home p {
+  color: blueviolet;
+}
+.Home video {
+  width: 800px;
+  height: 400px;
+  background-size: 250px   450px;
 }
 
 .Home-about:hover {
   transform: scale(1.1);
   transition: 0.5S;
-  box-shadow: 0 0 10px 1px rgb(29, 29, 224);
+  box-shadow: 0 0 10px 1px rgb(45, 29, 224);
 }
 
 
 button {
-  color: rgb(21, 37, 221);
+  color: rgb(64, 21, 221);
   background-color: rgb(127, 196, 220);
   padding: 4px;
   border-radius: 5px;
@@ -106,15 +102,10 @@ button {
 
 button:hover {
   background-color: rgb(157, 139, 139);
-  color: rgb(60, 18, 32);
+  color: rgb(60, 18, 3)
 }
 
-.Home aside {
-  flex: 100% 0 0;
-  background-color: rgb(255, 250, 250);
-  display: flex;
-  margin-top: 20px;
-}
+
 
 
 
