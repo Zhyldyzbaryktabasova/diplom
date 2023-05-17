@@ -1,0 +1,11 @@
+
+
+
+.network-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.network-icons .bi{
+  width: 30px;
+  height: 30px;
+}
