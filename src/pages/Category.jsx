@@ -6,6 +6,7 @@ import NotFound from "./NotFound";
 import "./Category.css";
 
 export default function Category() {
+  //деструктизация
   const { params } = useMatch("/category/:path");
   const { categories } = useContext(AppContext);
   const category = categories.find((category) => params.path === category.path);
