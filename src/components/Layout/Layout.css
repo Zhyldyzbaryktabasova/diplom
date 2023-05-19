@@ -54,10 +54,8 @@ main {
   background-repeat: no-repeat;
 }
 
-.About img {
-  display: flex;
-  padding: 50px 50px 60px 90px;
-  height: 40vh;
+.About-u img {
+text-align: center;  height: 40vh;
 }
 
 footer {
@@ -66,33 +64,31 @@ footer {
 .Layout footer {
   grid-area: footer;
   background-color: #2699c7;
-  }
-  .Footer_link h3 {
-    margin-top: 0px;
-    text-align: center;
-  }
-  .Footer_link h5  {
-    text-align: center;
-  }
-  .Footer_link p {
-    text-align: center;
-
-  }
-  .network-icons {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .network-icons .bi{
-    background-color: white;
-    width: 30px;
-    height: 30px;
-  }
-  .network-icons:hover {
-    background-color: rgb(94, 219, 245);
-    border-color: #000;
-    box-shadow: 0 0 200px 5px;  
-  }
-  
+}
+.Footer_link h3 {
+  margin-top: 0px;
+  text-align: center;
+}
+.Footer_link h5 {
+  text-align: center;
+}
+.Footer_link p {
+  text-align: center;
+}
+.network-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.network-icons .bi {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+.network-icons:hover {
+  background-color: rgb(94, 219, 245);
+  border-color: #000;
+  box-shadow: 0 0 200px 5px;
+}
 
 .Layout .logo {
   max-width: 100px;

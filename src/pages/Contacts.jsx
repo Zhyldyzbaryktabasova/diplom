@@ -6,6 +6,7 @@ export default function Contacts() {
     <div className="Contacts">
       <div className="Row">
         <div className="Col-6">
+    
     <strong>Contact us</strong>
     <p>
       {" "}
@@ -16,9 +17,11 @@ export default function Contacts() {
     <div className="Col-6">
       <div className="Contacts-r">
         <p>zhyldyz.baryktabasova.ch@gmail.com</p>
+        
       </div>
     </div>
     </div>
     </div>
+    
   )
 }

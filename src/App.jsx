@@ -11,6 +11,7 @@ import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
+import Delivery from "./pages/Delivery";
 
 
 
@@ -70,6 +71,7 @@ export default function App() {
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/contacts" element={<Contacts/>} />
+            <Route path="/delivery" element={<Delivery/>} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>

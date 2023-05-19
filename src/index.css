@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Syne+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Syne+Mono&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .Row {
@@ -71,7 +71,6 @@ body {
   margin-left: 250px;
 }
 
-
 .Home h1 {
   color: blue;
   margin-left: 300px;
@@ -82,15 +81,14 @@ body {
 .Home video {
   width: 800px;
   height: 400px;
-  background-size: 250px   450px;
+  background-size: 250px 450px;
 }
 
 .Home-about:hover {
   transform: scale(1.1);
-  transition: 0.5S;
+  transition: 0.5s;
   box-shadow: 0 0 10px 1px rgb(45, 29, 224);
 }
-
 
 button {
   color: rgb(64, 21, 221);
@@ -102,10 +100,22 @@ button {
 
 button:hover {
   background-color: rgb(157, 139, 139);
-  color: rgb(60, 18, 3)
+  color: rgb(60, 18, 3);
 }
+.title-anim {
+  animation: title-anim 2s linear infinite alternate;
+  font-size: 70px;
+  width: 375px;
+  border-radius: 15px;
+}
+@keyframes title-anim {
+  0% {
+    transform: scale(1);
+    background-color: rgb(129, 199, 224);
+  }
 
-
-
-
-
+  100% {
+    transform: scale(1.13);
+    background-color: white;
+  }
+}

@@ -1,8 +1,13 @@
 export default function Home() {
   return (
     <div className="Home">
-      <h1>Bags shop</h1>
-      <p>Quality bags</p> 
+      <h1>
+        <div className="title-anim">
+          Bags shop
+          </div>
+          </h1>
+          
+          <p>Quality bags</p> 
       <p>You will find any bag in our store.The catalog of our online store includes: business leather goods for
             men and women, leather and textile models, bags for every season,
             color and classic options, and most importantly - fashionable and
@@ -18,8 +23,8 @@ export default function Home() {
         tupe='video/mp4;codecs="avc1.42E01E,mp4.40.2"'
         />
         </video>
-      
-     </div>
+
+  </div>
 
 
   )

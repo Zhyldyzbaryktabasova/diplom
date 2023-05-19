@@ -1,0 +1,13 @@
+.Delivery h2{
+  margin-top: 0px;
+  text-align: center;
+  background-color: #bbb9c5;
+}
+.Delivery p {
+  text-align: center;
+}
+.Delivery img {
+  margin-left: 160px;
+  text-align: center;
+  width: 900px;
+}
