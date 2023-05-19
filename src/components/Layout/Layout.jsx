@@ -17,7 +17,6 @@ export default function Layout(props) {
   return (
     <div className="Layout">
       <header>
-        <div className="head">
           <Logo />
           <Nav />
           <NavToggle callback={toggleDrawer} />
@@ -26,7 +25,6 @@ export default function Layout(props) {
             <CartLink />
             <Auth />
           </div>
-        </div>
       </header>
       <aside>
         <CategoryList />
