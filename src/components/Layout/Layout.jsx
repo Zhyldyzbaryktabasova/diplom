@@ -7,6 +7,7 @@ import Auth from "../Auth/Auth";
 import NavToggle from "../NavToggle/NavToggle";
 import Drawer from "../Drawer/Drawer";
 import { useState } from "react";
+import Footer from "../Footer/Footer";
 
 export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -31,23 +32,7 @@ export default function Layout(props) {
       </aside>
       <main>{props.children}</main>
 
-      <footer>
-        <div className="Footer_link">
-          <div className="footer_contact">
-            <h3>Bishkek city</h3>
-            <p>Lenin street 345/8</p>
-            <h5>Opening</h5>
-            <p>Monday-Saturday</p>
-            <p>
-              <strong>o9:00</strong>A.M-<strong>8:00</strong>P.M
-            </p>
-            <p>Sunday</p>
-            <p>
-              <strong>10:00</strong>A.M-<strong>8:00</strong>P.M
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
