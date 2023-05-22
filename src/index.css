@@ -104,7 +104,8 @@ button:hover {
 }
 .title-anim {
   animation: title-anim 2s linear infinite alternate;
-  font-size: 70px;
+  font-size: 50px;
+  padding: 40px;
   width: 375px;
   border-radius: 15px;
 }
