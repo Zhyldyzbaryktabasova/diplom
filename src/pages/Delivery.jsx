@@ -7,12 +7,12 @@ export default function Delivery() {
         <div className="Col-6">
       <h2> 
         {" "}
-        We have a delivery</h2>
+        We have a delivery
+        <p>We have a lot of</p></h2>
 
        </div>
        <div className="Col-6">
         <div className="Delivery-y">
-      <p>We have a lot of</p>
       <img src={image} alt ="image-gril"/>
     </div>
     </div>
