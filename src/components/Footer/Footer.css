@@ -1,9 +1,8 @@
 .footer {
-  background-color: #33333330;
   height: 100%;
   width: 100%;
   padding: 20px 0;
-  color: palevioletred;
+  color: white
 
 
 }
@@ -22,7 +21,7 @@
 
 .footer-column a {
   text-decoration: none;
-  color: palevioletred;
+  color: rgb(249, 247, 247);
 }
 
 .footer-heading {
