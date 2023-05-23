@@ -1,11 +1,9 @@
 .CategoryList li {
   text-decoration: none; 
   display: flex;
-  background-color: aquamarine;
+  background-color: rgb(193, 220, 211);
   list-style-type: none;
   font-size: 18px;
-  border-radius: 40px;
-  margin: 5px;
   border: 0.1px solid ;
 }
 .CategoryList li .Category:hover {
