@@ -1,5 +1,6 @@
 import "./Delivery.css";
-import image from "../assets/2023-05-19_07-27-42.png";
+import image from "../pages/bugs.png";
+
 export default function Delivery() {
   return(
     <div className="Delivery">
