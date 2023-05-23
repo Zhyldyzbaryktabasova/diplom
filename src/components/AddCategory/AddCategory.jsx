@@ -50,6 +50,7 @@ const AddCategory = () => {
       />
       <button onClick={onAddCategory} disabled={isSubmitting}>+</button>
     </div>
+  
   );
 };
 
