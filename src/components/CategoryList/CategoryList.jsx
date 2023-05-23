@@ -14,6 +14,7 @@ export default function CategoryList() {
     <NavLink to={"/category/"+ category.path}>{category.name}</NavLink>
       <DeleteCategory category={category} />
     </li>
+   
   ));
   return (
     <div className="CategoryList">
