@@ -24,16 +24,15 @@ export default function About() {
           </p>
         </div>
         <div className="Col-6">
-          <div >
+          <div>
             <video controls autoPlay="true" loop="true">
               <source
                 src="https://st4.depositphotos.com/24106373/41102/v/600/depositphotos_411021936-stock-video-girl-with-shopping-bags-spining.mp4"
                 type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
               />
             </video>
-            
-        </div>
           </div>
+        </div>
       </div>
     </div>
   );
