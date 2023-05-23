@@ -27,10 +27,12 @@ export default function Layout(props) {
             <Auth />
           </div>
       </header>
-      <aside>
+      {/* <aside>
         <CategoryList />
-      </aside>
-      <main>{props.children}</main>
+      </aside> */}
+      <main>
+      <CategoryList />
+        {props.children}</main>
 
       <Footer />
     </div>
