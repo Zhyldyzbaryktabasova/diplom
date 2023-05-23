@@ -36,11 +36,7 @@ aside {
   display: flex;
   font-size: 20px;
 }
-.Layout aside {
-  background-color: rgb(93, 176, 236);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 main {
   display: flex;
   background-color: rgb(234, 242, 237);
@@ -48,7 +44,6 @@ main {
 }
 .Layout main {
   flex: 50% 1 1;
-  padding: 100px;
   background-image: url(https://img.freepik.com/premium-vector/background-images-free-download-on-freepik_689361-61.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,6 +76,7 @@ footer {
 }
 .network-icons {
   display: flex;
+  
   justify-content: space-evenly;
 }
 .network-icons .bi {
@@ -89,7 +85,6 @@ footer {
   height: 30px;
 }
 .network-icons:hover {
-  background-color: rgb(94, 219, 245);
   border-color: #000;
   box-shadow: 0 0 200px 5px;
 }
