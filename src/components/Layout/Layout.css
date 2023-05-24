@@ -10,7 +10,6 @@
 header {
   display: flex;
   background-color: rgb(129, 227, 231);
-  height: 10vh;
   position: relative;
   padding: 15px;
 }
@@ -38,6 +37,7 @@ aside {
 }
 
 main {
+  padding: 15px;
   display: flex;
   background-color: rgb(234, 242, 237);
   color: rgb(78, 81, 75);

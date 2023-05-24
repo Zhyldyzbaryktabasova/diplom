@@ -120,3 +120,17 @@ button:hover {
     background-color: white;
   }
 }
+
+
+@media screen and (max-width:500px) {
+  
+  .Home p {
+    color: rgb(226, 43, 43);
+    font-size: 10px;
+  }
+  .Home video {
+    width: 500px;
+    height: 200px;
+    background-size: 250px 450px;
+  }
+}
