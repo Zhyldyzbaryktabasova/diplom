@@ -1,23 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+.CategoryList {
+  margin-top: 76px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #8a2be2;
+  max-width: 200px;
+  
+}
+
+.CategoryList h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f7efef;
+}
+
+.CategoryList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .CategoryList li {
-  text-decoration: none; 
-  display: flex;
-  background-color: rgb(193, 220, 211);
-  list-style-type: none;
-  font-size: 18px;
-  border: 0.1px solid ;
+  margin-bottom: 5px;
 }
-.CategoryList li .Category:hover {
-  text-shadow: 0 0 2px;
-}
-.CategoryList li a {
+
+.CategoryList a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #f6f2f2;
+  text-transform: uppercase;
   text-decoration: none;
-  color: #280fcd;
-  display:block;
-  margin: 6px;
-  width:100%
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+.CategoryList a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  width: 0;
+  height: 4px; /* Высота линии */
+  background-color: black; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+.CategoryList a:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px; /* Высота линии */
+  background-color: rgb(228, 25, 59); /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.8s; /* Время эффекта */
 }
 
 .CategoryList a:hover {
-  text-shadow: 0 0 2px;
+  transform: translateY(0.1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
 
+.CategoryList a:nth-child(odd) {
+  background-color: #1219ebe8;
+  color: #ffffff;
+}
+
+.CategoryList a:nth-child(even) {
+  background-color: #ffa69e;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .CategoryList ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .CategoryList li {
+    margin: 5px 0;
+  }
+
+  .CategoryList a {
+    padding: 5px;
+    font-size: 1rem;
+  }
 }
