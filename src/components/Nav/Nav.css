@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+.Nav {
+  width: 100%;
+}
 .Nav ul {
   display:flex;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  
 }
 
 .Nav ul li a {
