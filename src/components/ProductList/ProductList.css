@@ -1,6 +1,7 @@
 .ProductList .Product {
  display: inline-flex;
  flex-direction: column;
+ margin-top: 20px;
 }
 .ProductList .Product img {
   float: left;
