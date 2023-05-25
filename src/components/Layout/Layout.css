@@ -107,4 +107,7 @@ footer {
     display: none;
   }
 }
+.input {
+  padding: 15px;
+}
 
