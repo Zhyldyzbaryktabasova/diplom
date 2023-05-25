@@ -134,3 +134,6 @@ button:hover {
     background-size: 250px 450px;
   }
 }
+.input {
+  padding: 15px;
+}
