@@ -17,7 +17,7 @@ export default function Home() {
         appear in the catalogs of our partners. If you are looking for a
         fashionable bag, you will definitely like it here!
       </p>
-      <video controls autoPlay="true" loop="true">
+      <video controls autoPlay={true} loop={true}>
         <source
           src="https://st4.depositphotos.com/34691230/39382/v/600/depositphotos_393824718-stock-video-stylish-girl-with-glasses-and.mp4"
           tupe='video/mp4;codecs="avc1.42E01E,mp4.40.2"'
