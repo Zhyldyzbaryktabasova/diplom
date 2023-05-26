@@ -8,6 +8,7 @@ import NavToggle from "../NavToggle/NavToggle";
 import Drawer from "../Drawer/Drawer";
 import { useState } from "react";
 import Footer from "../Footer/Footer";
+import DeleteProduct from "../DeleteProduct/DeleteProduct";
 
 export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);
