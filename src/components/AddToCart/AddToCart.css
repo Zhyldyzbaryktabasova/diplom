@@ -1,0 +1,35 @@
+button {
+  background-color: #c6f6f65a;
+  border: none;
+  padding: 4px 6px;
+  box-shadow: 6px 6px 6px rgba(5, 85, 116, 0.056);
+  transition: 0.3s;
+}
+button:hover {
+  text-shadow: 0 0 2px #7b3633;
+  background: linear-gradient(
+    90deg,
+    rgba(30, 243, 228, 0.659) 0%,
+    rgba(49, 219, 234, 0.268) 35%,
+    rgba(188, 78, 227, 0.478) 63%,
+    rgb(228, 180, 201) 67%,
+    rgba(211, 37, 238, 0.422) 100%
+  );
+  animation: gradient 0.4s linear infinite;
+}
+button:hover:before {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(0);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
