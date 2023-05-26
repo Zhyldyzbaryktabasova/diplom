@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
 .CategoryList {
-  margin-top: 76px;
-  padding: 20px;
+  margin-top: 38px;
   border-radius: 10px;
   box-shadow: 0 0 20px #8a2be2;
-  max-width: 200px;
-  
+  width: 200px;
 }
 
 .CategoryList h2 {
@@ -55,7 +53,11 @@
   left: 0;
   bottom: -3px;
   height: 2px; /* Высота линии */
-  background-color: rgb(228, 25, 59); /* Цвет подчеркивания при появлении линии*/
+  background-color: rgb(
+    228,
+    25,
+    59
+  ); /* Цвет подчеркивания при появлении линии*/
   transition: width 0.8s; /* Время эффекта */
 }
 

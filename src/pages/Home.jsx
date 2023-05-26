@@ -1,3 +1,5 @@
+
+
 export default function Home() {
   return (
     <div className="Home">
@@ -5,7 +7,7 @@ export default function Home() {
         <div className="title-anim">Bags shop</div>
       </h1>
 
-      <p>Quality bags</p>
+      <p className="home-tit">Quality bags</p>
       <p>
         You will find any bag in our store.The catalog of our online store
         includes: business leather goods for men and women, leather and textile

@@ -1,7 +1,7 @@
 .ProductList .Product {
- display: inline-flex;
- flex-direction: column;
- margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 .ProductList .Product img {
   float: left;
@@ -9,16 +9,16 @@
   height: 150px;
   width: 200px;
   border-radius: 50px;
-  max-width: 800px ;
+  max-width: 800px;
   box-shadow: 0 0 20px;
 }
 .ProductList .Product .DeleteProduct {
   width: 50px;
 }
 .ProductList button:hover {
-  transform: scale(0.9);
+  transform: scale(0.98);
 }
 
-.ProductList a:hover{
+.ProductList a:hover {
   text-shadow: 0 0 2px #140707;
 }

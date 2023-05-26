@@ -51,9 +51,9 @@ main {
   padding: 17px;
 }
 .About-u img {
-text-align: center; 
- height: 40vh;
- flex-wrap: wrap;
+  text-align: center;
+  height: 40vh;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -103,5 +103,10 @@ footer {
 }
 .input {
   padding: 15px;
-
+}
+.auth-wrap {
+  display: flex;
+}
+.Nav {
+  max-width: 500px;
 }

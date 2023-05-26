@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .Row {
@@ -71,12 +71,21 @@ body {
   color: blue;
 }
 .Home p {
-  color: blueviolet;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.Home .home-tit {
+  font-size: 22px;
+  font-weight: 700;
 }
 .Home video {
   width: 100%;
   margin: 0 auto;
-  background-size: 250px 450px;
+  height: auto;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
 }
 
 .Home-about:hover {
@@ -118,9 +127,7 @@ button:hover {
   }
 }
 
-
-@media screen and (max-width:500px) {
-  
+@media screen and (max-width: 500px) {
   .Home p {
     color: rgb(226, 43, 43);
     font-size: 10px;
@@ -128,4 +135,84 @@ button:hover {
 }
 .input {
   padding: 15px;
+}
+
+.mainBox {
+  width: calc(100% - 200px);
+}
+.CategoryList a {
+  line-height: 1.2;
+}
+.Auth span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-left: 20px;
+}
+button {
+  cursor: pointer;
+}
+.Auth button {
+  border: none;
+  background: #fff;
+  padding: 3px 10px;
+  border-radius: 8px;
+  color: #030303;
+  font-weight: 500;
+}
+.CartItem {
+  margin-bottom: 30px;
+}
+.CartList {
+  flex-wrap: wrap;
+}
+.CartList .CartItem img {
+  margin-bottom: 10px;
+}
+.CartItem .link {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+.OrderForm button,
+.CartItem button {
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: #030303;
+}
+.CartItem span {
+  display: block;
+  margin-bottom: 15px;
+}
+.CartItem input {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 5px;
+  width: 80px;
+}
+.OrderForm label {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  width: 250px;
+}
+.OrderForm input {
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 1px solid #000;
+  margin-top: 5px;
+  line-height: 35px;
+}
+.OrderForm button {
+  width: 250px;
+  padding: 0;
+  line-height: 35px;
+}
+.Cart{
+  padding-top: 15px;
 }
